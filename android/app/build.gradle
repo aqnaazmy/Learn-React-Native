@@ -74,9 +74,9 @@ android {
     buildToolsVersion rootProject.ext.buildToolsVersion
     compileSdk rootProject.ext.compileSdkVersion
 
-    namespace "com.pluginapp"
+    namespace "com.aqnaazmy.myapp"
     defaultConfig {
-        applicationId "com.pluginapp"
+        applicationId "com.aqnaazmy.myapp"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

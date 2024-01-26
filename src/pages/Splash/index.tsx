@@ -1,7 +1,13 @@
 import { StyleSheet, Text, View } from 'react-native'
-import React from 'react'
+import React, { useEffect } from 'react'
 
 const Splash = () => {
+
+  // useEffect(() => {
+  //   setTimeout( () =>{
+  //     navigation.replace('MainApp')
+  //   }, 3000)
+  // }, [navigation])
   return (
     <View>
       <Text>Splash</Text>
